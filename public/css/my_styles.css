@@ -1,0 +1,164 @@
+body {
+  font-family: "Arial";
+}
+
+p {
+  margin-top: 30px;
+}
+
+.fancy-button {
+  border-radius: 5px;
+  color: white;
+  background-color: blue;
+  padding: 10px 15px;
+  font-family: "arial";
+}
+
+.fancy-button:hover{
+  background-color: navy;
+  box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1) inset;
+}
+
+.fancy-button:active{
+  background-color:black;
+}
+
+.button {
+  border-radius: 5px;
+  padding: 8px;
+  font-family: "arial";
+  opacity: 0.8;
+}
+.button:hover{
+  opacity: 1.0;
+}
+.button:active{
+  background-color: black;
+}
+
+.weak-button {
+  border-radius: 5px;
+  border-width: 2px;
+  padding: 8px;
+  font-family: "arial";
+}
+
+.button#primary{
+  color: white;
+  background-color: blue;
+}
+.weak-button#primary{
+  color: blue;
+  border-style: solid;
+  border-color: blue;
+}
+.weak-button#primary:hover{
+  color: white;
+  background-color: blue;
+  opacity: 0.8;
+}
+.weak-button#primary:active{
+  color: white;
+  background-color: blue;
+  opacity: 1;
+}
+
+.button#secondary{
+  color: white;
+  background-color: gray;
+}
+.weak-button#secondary{
+  color: gray;
+  border-style: solid;
+  border-color: gray;
+}
+.weak-button#secondary:hover{
+  color: white;
+  background-color: gray;
+  opacity: 0.8;
+}
+.weak-button#secondary:active{
+  color: white;
+  background-color: gray;
+  opacity: 1;
+}
+
+.button#success{
+  color: white;
+  background-color: green;
+}
+.weak-button#success{
+  color: green;
+  border-style: solid;
+  border-color: green;
+}
+.weak-button#success:hover{
+  color: white;
+  background-color: green;
+  opacity: 0.8;
+}
+.weak-button#success:active{
+  color: white;
+  background-color: green;
+  opacity: 1;
+}
+
+.button#danger{
+  color: white;
+  background-color: red;
+}
+.weak-button#danger{
+  color: red;
+  border-style: solid;
+  border-color: red;
+}
+.weak-button#danger:hover{
+  color: white;
+  background-color: red;
+  opacity: 0.8;
+}
+.weak-button#danger:active{
+  color: white;
+  background-color: red;
+  opacity: 1;
+}
+
+.button#warning{
+  color: white;
+  background-color: orange;
+}
+.weak-button#warning{
+  color: orange;
+  border-style: solid;
+  border-color: orange;
+}
+.weak-button#warning:hover{
+  color: white;
+  background-color: orange;
+  opacity: 0.8;
+}
+.weak-button#warning:active{
+  color: white;
+  background-color: orange;
+  opacity: 1;
+}
+
+.button#info{
+  color: white;
+  background-color: turquoise;
+}
+.weak-button#info{
+  color: turquoise;
+  border-style: solid;
+  border-color: turquoise;
+}
+.weak-button#info:hover{
+  color: white;
+  background-color: turquoise;
+  opacity: 0.8;
+}
+.weak-button#info:active{
+  color: white;
+  background-color: turquoise;
+  opacity: 1;
+}
